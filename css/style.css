@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin-top: 65px;
+}
+
+/*header*/
+.title {
+    margin: 1.5rem auto;
+    text-align: center;
+    font-weight: bold;
+}
+h1.title {
+    font-size: 2.5rem;
+}
+
+/*nav*/
+nav {
+    text-align: center;
+    display: block;
+    width: 100vw;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    float: left;
+    padding: .25rem;
+    margin: .25rem 1rem .25rem 1rem;
+}
+
+nav a:hover {
+    color:white;
+    background-color: black;
+}
+/*Sections*/
+#colors {
+    margin: 1rem auto;
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+#fonts {
+    margin: 1rem auto;
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+#typography {
+    margin: 1rem auto;
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+#linksbuttons {
+    margin: 1rem auto;
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+#icons {
+    margin: 1rem auto;
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+#images {
+    margin: 1rem auto;
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+/*Section headers*/
+h2.head {
+    font-size: 1.75rem;
+}
+
+.head {
+    margin: 1.5rem auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Colors */
+.containers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container {
+    margin-left: 1rem;
+    margin-right: .5rem;
+    width: 30%;
+    height: 40px;
+}
+
+.color1 {
+    background-color: black;
+}
+.color2 {
+    background-color: cornsilk;
+}
+.color3 {
+    background-color: crimson;
+}
